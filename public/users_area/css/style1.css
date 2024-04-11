@@ -1,0 +1,63 @@
+body {
+    background-size: cover;
+    color: #394169;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15%;
+}
+
+form {
+    margin-top: 20px;
+    background-color: transparent;
+    padding: 20px;
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+}
+
+form h2 {
+    text-align: center;
+    color: #333;
+    font-size: 33px;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+}
+
+label {
+    display: block;
+    margin-top: 6px;
+    margin-left:15px;
+    font-size: 14px;
+    color: #394169;
+}
+
+button {
+    color: white;
+    padding: 14px 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    opacity: 1;
+    width: 100%;
+    border-radius: 25px; 
+    margin-top: 18px;
+}
+.login-input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 25px; /* Increase border-radius to make login-input rounder*/
+}
