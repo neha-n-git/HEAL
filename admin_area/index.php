@@ -1,3 +1,7 @@
+<?php
+include('../includes/connect.php');
+include('../functions/common_function.php,);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +18,13 @@
             width:100px;
             object-fit: contain;
             }
+        .footer{
+        position:absolute;
+        bottom:0;
+        }
+        body{
+        overflow-x:hidden;
+        }
     </style>
 
 </head>
@@ -46,7 +57,7 @@
                 </div>
                 <div class="button text-center">
                     <button class="btn btn-outline-dark m-2"><a href="insert_product.php" class="nav-link my-2 mx-1"> Insert Products</a></button>
-                    <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> View Products</a></button>
+                    <button class="btn btn-outline-dark m-2"><a href="index.php?view_products" class="nav-link my-2 mx-1"> View Products</a></button>
                     <button class="btn btn-outline-dark m-2"><a href="index.php?insert_category" class="nav-link my-2 mx-1"> Insert Categories</a></button>
                     <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> View Categories</a></button>
                     <button class="btn btn-outline-dark m-2"><a href="index.php?insert_brand" class="nav-link my-2 mx-1"> Insert Brands</a></button>
