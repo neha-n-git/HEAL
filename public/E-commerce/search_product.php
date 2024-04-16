@@ -37,7 +37,7 @@ include('../functions/common_function.php');
                     <a class="nav-link" href="shop.php">SHOP</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">COUNSELLING</a>
+                    <a class="nav-link" href="..\Counselling\counsellor.php">COUNSELLING</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="..\Listing\list.php">PRODUCT LISTING</a>
@@ -101,16 +101,7 @@ include('../functions/common_function.php');
 </nav>
 
 <!--second navbar-->
-    <hr>
-    <nav class="navbar navbar-exapnd-lg" style="background-color:#ffffff;">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item" style="margin-left:10px;font-size:35px;">
-          <a class="nav-link" href="#"><strong>Welcome Guest !</strong></a>
-        </li>
-       <!--login button in yt vid-->
-      </ul>
-    </nav>
-    <hr><br>
+<br>
     <div class="row p-3">
       <div class="col-md-10">
         <!--products-->

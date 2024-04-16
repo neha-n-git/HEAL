@@ -3,8 +3,12 @@ include('../includes/connect.php');
 include('../functions/common_function.php');
 @session_start();
 
-if (isset($_GET['user_id'])){
-    $user_id = $_GET['user_id'];
+if (isset($_SESSION['username'])){
+    $username = $_SESSION['username'];
+    $uid_fetch="SELECT * FROM `user_table` where username='$username'";
+    $result_uid=mysqli_query($con,$uid_fetch);
+    $row_uid=mysqli_fetch_array($result_uid);
+    $user_id=$row_uid["user_id"];
 
 }
 
@@ -22,8 +26,9 @@ while($row_price=mysqli_fetch_array($result_cart_price)){
     $result_product=mysqli_query($con,$select_product);
     while($row_product_price=mysqli_fetch_array($result_product)){
         $product_price= array($row_product_price['product_price']);
+        $product_quantity= $row_price['quantity'];
         $product_values=array_sum($product_price);
-        $total_price+=$product_values;
+        $total_price+=($product_values* $product_quantity);
         
     }}
     //getting quantity from cart
@@ -46,8 +51,9 @@ while($row_price=mysqli_fetch_array($result_cart_price)){
         echo "<script>window.open('profile.php','_self')</script>";
     }
 //orders pending
-    $insert_pending_order= "INSERT INTO `orders_pending`(user_id,invoice_number,product_id,quantity,order_status) VALUES($user_id,$invoice_number,$product_id,$quantity,'$status')";
-    $result_pending_orders= mysqli_query($con,$insert_pending_order) ;
+    $insert_pending_order = "INSERT INTO `orders_pending` (user_id, invoice_number, product_id, quantity, order_status) VALUES ($user_id, $invoice_number, $product_id, $quantity, '$status')";
+    $result_pending_orders = mysqli_query($con, $insert_pending_order);
+    $total_products_temp=$total_products_temp-1;
 
 //delete items from cart
     $empty_cart= "DELETE FROM `cart_details` WHERE ip_address = '$get_ip_address' ";

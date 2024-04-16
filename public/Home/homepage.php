@@ -44,7 +44,7 @@ include('../includes/connect.php');
                     <a class="nav-link" href="..\E-commerce\shop.php">SHOP</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">COUNSELLING</a>
+                    <a class="nav-link" href="..\Counselling\counsellor.php">COUNSELLING</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="..\Listing\list.php">PRODUCT LISTING</a>
@@ -253,13 +253,13 @@ include('../includes/connect.php');
         <section class="naturally-simple">
             <div class="heading">
                 <hr>
-                <p>NATURALLY SIMPLE</p>
+                <p>GROW YOUR BUSINESS</p>
                 <hr>
             </div>
             <div class="container">
                 <p class="text-center">Looking to showcase your products to a wider audience? Look no further! Join our platform and list your products with us. Whether you're a small business owner, artisan, or entrepreneur, we provide a platform for you to reach potential customers and grow your brand. With our user-friendly interface and dedicated support team, getting started is easy. Simply sign up, create your product listings, and start connecting with buyers today. Don't miss out on the opportunity to expand your reach and boost your sales. List your products with us now</p>
             </div>
-            <button>Learn More</button>
+            <button><a href="../Listing/list.php" style="color:white; text-decoration: none;">Visit Page</a></button>
             <div class="landscape-photo">
                 <img src="../assets/naturallysimple.jpg" alt="Landscape Photo">
             </div>

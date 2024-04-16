@@ -36,7 +36,7 @@ include('../functions/common_function.php');
                     <a class="nav-link" href="..\E-commerce\shop.php">SHOP</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">COUNSELLING</a>
+                    <a class="nav-link" href="..\Counselling\counsellor.php">COUNSELLING</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="">PRODUCT LISTING</a>

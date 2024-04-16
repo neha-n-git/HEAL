@@ -42,7 +42,7 @@ include('../includes/connect.php');
                     <a class="nav-link" href="..\E-commerce\shop.php">SHOP</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">COUNSELLING</a>
+                    <a class="nav-link" href="..\Counselling\counsellor.php">COUNSELLING</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="..\Listing\list.php">PRODUCT LISTING</a>
@@ -124,7 +124,7 @@ include('../includes/connect.php');
  </div>
 
     <!--footer-->   
-    <div style="background-color:#edf4fc;">
+    <div style="background-color:white;">
     <iframe src="..\includes\footer.html" width="100%" height="400" frameborder="0" title="Footer"></iframe> 
     <div>
     <!--bootstrap js link-->

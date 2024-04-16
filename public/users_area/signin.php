@@ -121,7 +121,7 @@ session_start();
                     <a href="#" id="googlesignin"><img src="https://i.pinimg.com/736x/2d/69/10/2d69108bd4c046bba683589b106a5dd3.jpg" alt="Google" height="50px"></a>
                 </div> -->
                 <div class="forgot-password">
-                    <a href="#" style="color:#9e9d9d; text-decoration: none;"><p>Forgot password?</p></a>
+                    <a href="forgot_password.php" style="color:#9e9d9d; text-decoration: none;"><p>Forgot password?</p></a>
                 </div>
                 <div class="signup">
                      Don't have an account? 

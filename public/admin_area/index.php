@@ -46,15 +46,14 @@
                 </div>
                 <div class="button text-center">
                     <button class="btn btn-outline-dark m-2"><a href="insert_product.php" class="nav-link my-2 mx-1"> Insert Products</a></button>
-                    <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> View Products</a></button>
+                    <!-- <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> View Products</a></button> -->
                     <button class="btn btn-outline-dark m-2"><a href="index.php?insert_category" class="nav-link my-2 mx-1"> Insert Categories</a></button>
-                    <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> View Categories</a></button>
+                    <!-- <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> View Categories</a></button> -->
                     <button class="btn btn-outline-dark m-2"><a href="index.php?insert_brand" class="nav-link my-2 mx-1"> Insert Brands</a></button>
-                    <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> View Brands</a></button>
+                    <!-- <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> View Brands</a></button>
                     <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> All Orders</a></button>
-                    <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> All Payments</a></button>
                     <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> User List</a></button>
-                    <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> Logout</a></button>
+                    <button class="btn btn-outline-dark m-2"><a href="" class="nav-link my-2 mx-1"> Logout</a></button> -->
                 </div>
             </div>
         </div>

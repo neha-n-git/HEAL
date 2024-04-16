@@ -315,6 +315,31 @@ function user_handle(){
     }
 }
 
-    
+//get user order details
+function get_user_order_details(){
+    global $con;
+    $username = $_SESSION['username'];
+    $get_details="SELECT * FROM `user_table` where username='$username'";
+    $result_query = mysqli_query($con, $get_details);
+    while($row_details=mysqli_fetch_array($result_query)){
+        $user_id=$row_details['user_id'];
+        if(!isset($_GET['edit_account'])){
+            if(!isset($_GET['my_orders'])){
+                if(!isset($_GET['delete_account'])){
+                    $get_orders="SELECT * FROM `user_orders` where user_id=$user_id and order_status='pending'";
+                    $result_orders=mysqli_query($con, $get_orders);
+                    $row_count=mysqli_num_rows($result_orders);
+                    if($row_count>0){
+                        echo "<h3 class='text-center my-5'>You have <span class='text-danger'>$row_count</span> pending orders</h3>
+                        <p class='text-center'><a href='profile.php?my_orders' style='text-decoration:none; color:green;'>Order Details </a></p>";
+                    }else{
+                        echo "<h3 class='text-center my-5'>You have no pending orders</h3>
+                        <p class='text-center'><a href='..\E-commerce\shop.php' style='text-decoration:none; color:green;'>Explore Shop </a></p>";
+                    }
+                }
+            }
+        }
+    }}
+
 ?>
 
