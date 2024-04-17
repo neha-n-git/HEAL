@@ -27,27 +27,26 @@
 }
 
 .footer-row .footer-col h4 {
-  color: #fff;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.footer-row .footer-col a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.footer-row .footer-col a:hover {
+  color: #9ad2a3;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-.footer-col .links {
-  margin-top: 20px;
-}
-
-.footer-col .links li {
-  list-style: none;
-  margin-bottom: 10px;
-}
-
-.footer-col .links li a {
-  text-decoration: none;
+.footer-col .description {
   color: #bfbfbf;
-}
-
-.footer-col .links li a:hover {
-  color: #fff;
+  margin-top: 10px;
 }
 
 .footer-col p {
@@ -67,7 +66,7 @@
   background: none;
   width: 100%;
   outline: none;
-  border: 1px solid #7489C6 ;
+  border: 1px solid #9ad2a3 ;
   caret-color: #fff;
   color: #fff;
   padding-left: 10px;
@@ -77,7 +76,7 @@
   color: #ccc;
 }
 
- .footer-col form button {
+.footer-col form button {
   background: #fff;
   outline: none;
   border: none;
@@ -89,7 +88,7 @@
 }
 
 .footer-col form button:hover {
-  background: #cecccc;
+  background: #9ad2a3;
 }
 
 .footer-col .icons {

@@ -111,15 +111,8 @@ session_start();
 
                 <div class="form-outline">
                 <input type="submit" value="LOGIN" class="btn mt-4" style="background-color:#03796d; border-radius:25px; border: 1px solid #000;" name="user_login">
-                </div></form>
-                <!-- <div class="social-login">
-                    <div class="line-wrapper">
-                        <span class="line"></span>
-                        <span class="text">or log in with</span>
-                        <span class="line"></span>
-                      </div>
-                    <a href="#" id="googlesignin"><img src="https://i.pinimg.com/736x/2d/69/10/2d69108bd4c046bba683589b106a5dd3.jpg" alt="Google" height="50px"></a>
-                </div> -->
+                </div>
+            </form>
                 <div class="forgot-password">
                     <a href="forgot_password.php" style="color:#9e9d9d; text-decoration: none;"><p>Forgot password?</p></a>
                 </div>

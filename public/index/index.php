@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Heal Landing Page</title>
+    <style>
+      footer {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
   </head>
   <body>
     <header>
@@ -18,7 +26,7 @@
     <div class="parallax__container">
       <img src="..\assets\bg-1.jpg" alt="parallax" />
       <img id="bg-2" src="..\assets\bg-2.png" alt="parallax" />
-      <h1 id="title">H‎E‎A‎L</h1>
+      <h1 id="title">HEAL</h1>
       <img id="bg-3" src="..\assets\bg-3.png" alt="parallax" />
     </div>
     <section class="about">
@@ -89,7 +97,7 @@
       });
     </script>
   <footer>
-    <iframe src="..\includes\footer.html" width="100%" height="400" frameborder="0" title="Footer"></iframe>
+    <iframe src="..\includes\footer.html" width="100%" height="500" frameborder="0" title="Footer"></iframe>
   </footer>
   </body>
 </html>

@@ -15,12 +15,20 @@ include('../functions/common_function.php');
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <style>
+      footer {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+  </head>
 <header>
 <div class="container-fluid p-0" style="background-color:#ffffff;">
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="..\Home\homepage.php">
               <img src="..\assets\Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
               HEAL
             </a>
@@ -42,7 +50,7 @@ include('../functions/common_function.php');
                     <a class="nav-link" href="">PRODUCT LISTING</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
+                    <a class="nav-link" href="..\AboutUs\about.php">ABOUT US</a>
                   </li>
                 </ul>
               <ul class="navbar-nav mb-2 mb-lg-0">
@@ -143,7 +151,7 @@ include('../functions/common_function.php');
         </form>
     </div>
     <footer>
-        <iframe src="..\includes\footer.html" width="100%" height="400" frameborder="0" title="Footer"></iframe>
+        <iframe src="..\includes\footer.html" width="100%" height="500" frameborder="0" title="Footer"></iframe>
     </footer>
      <!--bootstrap js link-->
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

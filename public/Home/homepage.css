@@ -52,6 +52,7 @@ hr {
     line-height: 1.6;
     margin-left: 200px;
     margin-right: 50px;
+    margin-bottom: 3px;
 }
 .text h2 {
     font-size: 50px;
@@ -61,15 +62,15 @@ hr {
     color: #10573e;
     text-transform: uppercase;
 }
-.text button {
+.text .button{
     padding: 10px 20px;
     background-color: #10563e;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 4px; 
     cursor: pointer;
     font-size: 16px;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px; 
     margin-left: 200px;
 }
 .heading p{
@@ -349,3 +350,4 @@ footer {
     padding: 20px;
     text-align: center;
   }
+

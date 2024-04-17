@@ -23,12 +23,26 @@ include('../includes/connect.php');
     <!--fontawesome(?)-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--style-->
+    <style>
+      .text .button{
+          padding: 10px 20px;
+          background-color: #10563e;
+          color: #fff;
+          border: none;
+          border-radius: 4px; 
+          cursor: pointer;
+          font-size: 16px;
+          margin-top: 25px; 
+          margin-left: 200px;
+          text-decoration: none;
+      }
+    </style>
 </head>
 <body>
     <div class="container-fluid p-0">
         <nav class="navbar navbar-expand-lg ">
           <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="homepage.php">
                 <img src="../assets/Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
                 HEAL
               </a>
@@ -50,7 +64,7 @@ include('../includes/connect.php');
                     <a class="nav-link" href="..\Listing\list.php">PRODUCT LISTING</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
+                    <a class="nav-link" href="..\AboutUs\about.php">ABOUT US</a>
                   </li>
                 </ul>
                 <ul class="navbar-nav mb-2 mb-lg-0">
@@ -115,7 +129,7 @@ include('../includes/connect.php');
             }
           ?>
             <p>“Be the best version of yourself”<br/>Heal helps improve the quality of mind through resources that help personal well-being</p>
-            <button>Learn More</button>
+            <a href="..\AboutUs\about.php" class="button">Learn More</a> 
         </div>
         </section>
         <section class="image-section">
@@ -201,7 +215,7 @@ include('../includes/connect.php');
         <p>OUR REVIEWS</p>
         <hr>
     </div>
-    <div class="rcontainer" style="background-image: url('assets/Untitled design (1).png'); background-size: cover;">
+    <div class="rcontainer" style="background-image: url('../assets/cdetail.jpeg'); background-size: cover;">
         <div class="container__left">
           <h1>Read what our customers love about us</h1>
           <p>
@@ -212,7 +226,6 @@ include('../includes/connect.php');
             We have helped companies increase their customer base and generate
             multifold revenue with our service.
           </p>
-          <button>Read our success stories</button>
         </div>
         <div class="container__right">
           <div class="card">
@@ -265,7 +278,7 @@ include('../includes/connect.php');
             </div>
       
             <footer>
-                <iframe src="../includes/footer.html" width="100%" height="400" frameborder="0" title="Footer"></iframe>
+                <iframe src="../includes/footer.html" width="100%" height="500"  frameborder="0" title="Footer"></iframe>
               </footer>
 
         <script>

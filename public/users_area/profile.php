@@ -18,6 +18,13 @@ include('../functions/common_function.php');
         body{
             overflow-x: hidden;
         }
+        footer {
+            background-color: #000000;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+
       </style>
   </head>
   <body>
@@ -25,7 +32,7 @@ include('../functions/common_function.php');
     <div class="container-fluid p-0">
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="..\Home\homepage.php">
               <img src="..\assets\Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
               HEAL
             </a>
@@ -47,7 +54,7 @@ include('../functions/common_function.php');
                     <a class="nav-link" href="..\Listing\list.php">PRODUCT LISTING</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
+                    <a class="nav-link" href="..\AboutUs\about.php">ABOUT US</a>
                   </li>
                 </ul>
               <ul class="navbar-nav mb-2 mb-lg-0">
@@ -136,9 +143,9 @@ include('../functions/common_function.php');
     
         </div>
     <!--footer-->   
-    <div style="background-color:white;">
-    <iframe src="..\includes\footer.html" width="100%" height="400" frameborder="0" title="Footer"></iframe> 
-    <div>
+    <footer>
+    <iframe src="..\includes\footer.html" width="100%" height="500" frameborder="0" title="Footer"></iframe> 
+    <footer>
 
     <!--bootstrap js link-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
