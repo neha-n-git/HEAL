@@ -128,7 +128,7 @@ include('../includes/connect.php');
               echo "<h2>Welcome to Our<br> Website,User</h2>";
             }
           ?>
-            <p>“Be the best version of yourself”<br/>Heal helps improve the quality of mind through resources that help personal well-being</p>
+            <p>“Be the best version of yourself”<br/>Heal helps improve the quality of mind through resources that help personal well-being</p><br>
             <a href="..\AboutUs\about.php" class="button">Learn More</a> 
         </div>
         </section>
